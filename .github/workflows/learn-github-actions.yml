@@ -1,12 +1,10 @@
 name: learn-github-actions
 on: [push]
 jobs:
-  check-bats-version:
+  Do Hello world:
     runs-on: ubuntu-latest
     steps:
         - name: Check out repository code
           uses: actions/checkout@v3
         - name: Run Hello World
           uses: ./.github/actions/hello-world-action
-          with:
-            hello-what: Arvid
