@@ -1,12 +1,10 @@
 name: "Example"
-description: "Run Hello World"
-runs-on: ubuntu-latest
-runs:
-  steps:
-    - runs-on 
-    - run: echo "🎉 Hello World."
+description: "Receives file and generates output"
 inputs:
-  hello-what: # id of input
-    description: "The halloed objext"
+  file-path: # id of input
+    description: "Path to test script"
     required: false
-    default: "World"
+    default: "test-file.js"
+outputs:
+  results-file: # id of output
+    description: "Path to results file"
