@@ -1,6 +1,6 @@
 name: "Example"
 description: "Run Hello World"
-jobs:
+runs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
