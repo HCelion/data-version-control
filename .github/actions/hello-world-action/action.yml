@@ -1,7 +1,7 @@
 name: "Example"
 description: "Run Hello World"
 runs: 
-  run: echo "Hello World"
+  build: echo "Hello World"
 inputs:
   hello-what: # id of input
     description: "The halloed objext"
