@@ -6,4 +6,4 @@ inputs:
     required: false
     default: "World"
 steps:
-  - run: echo "🎉  Hello World"
+  - runs: echo "🎉  Hello World"
