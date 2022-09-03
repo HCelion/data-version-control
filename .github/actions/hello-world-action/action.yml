@@ -1,0 +1,9 @@
+name: "Example"
+description: "Receives file and generates output"
+inputs:
+  hello-what: # id of input
+    description: "The halloed objext"
+    required: false
+    default: "World"
+steps:
+  - run: echo "🎉  Hello ${{ hello-what }}"
