@@ -1,7 +1,10 @@
 name: "Example"
 description: "Run Hello World"
-runs: 
-  build: echo "Hello World"
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
 inputs:
   hello-what: # id of input
     description: "The halloed objext"
