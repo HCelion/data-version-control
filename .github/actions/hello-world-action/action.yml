@@ -1,10 +1,8 @@
 name: "Example"
-description: "Receives file and generates output"
+description: "Run Hello World"
+runs: echo "🎉  Hello World"
 inputs:
   hello-what: # id of input
     description: "The halloed objext"
     required: false
     default: "World"
-jobs:
-  steps:
-    runs: echo "🎉  Hello World"
