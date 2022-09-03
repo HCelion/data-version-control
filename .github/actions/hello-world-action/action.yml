@@ -1,7 +1,9 @@
 name: "Example"
 description: "Run Hello World"
 runs:
+  runs-on: ubuntu-latest
   steps:
+    - runs-on 
     - run: echo "🎉 Hello World."
 inputs:
   hello-what: # id of input
