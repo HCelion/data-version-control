@@ -1,6 +1,6 @@
 name: "Example"
 description: "Run Hello World"
-runs: echo "🎉  Hello World"
+runs: echo "Hello World"
 inputs:
   hello-what: # id of input
     description: "The halloed objext"
