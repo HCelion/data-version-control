@@ -5,5 +5,6 @@ inputs:
     description: "The halloed objext"
     required: false
     default: "World"
-steps:
-  runs: echo "🎉  Hello World"
+jobs:
+  steps:
+    runs: echo "🎉  Hello World"
