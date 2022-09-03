@@ -1,10 +1,8 @@
 name: "Example"
 description: "Run Hello World"
 runs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "🎉 Hello World."
+  steps:
+    - run: echo "🎉 Hello World."
 inputs:
   hello-what: # id of input
     description: "The halloed objext"
