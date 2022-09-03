@@ -4,6 +4,9 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-       - uses: ./.github/actions/hello-world-action
-         with:
-           hello-what: Arvid
+        - name: Check out repository code
+          uses: actions/checkout@v3
+        - name: Run Hello World
+          uses: ./.github/actions/hello-world-action
+          with:
+            hello-what: Arvid
